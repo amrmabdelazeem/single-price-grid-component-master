@@ -1,0 +1,110 @@
+:root{
+    --cyan:hsl(179, 62%, 43%);
+    --brightyellow:hsl(71, 73%, 54%);
+    --lightgray:hsl(204, 43%, 93%);
+    --grayishblue:hsl(218, 22%, 67%);
+}
+
+*, a{
+    font-family: 'Karla', sans-serif;
+}
+body{
+    background-color: var(--lightgray);
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 260px;
+    margin: 50px auto;
+    overflow: hidden;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.ad{
+
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.ad h3{
+    color: var(--cyan);
+}
+
+.ad .yellow-content{
+    color: var(--brightyellow);
+    font-weight: 700;
+}
+.ad p{
+    color: var(--grayishblue);
+    font-size: 12px;
+    line-height: 2;
+}
+
+.sign-up{
+    padding: 0 20px;
+    color:#ffffff;
+    background-color: var(--cyan);
+}
+
+.sign-up h1{
+    font-size: medium;
+    font-weight: 200;
+    padding-top: 10px;
+}
+
+span{
+    font-size: 27px;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    top:5px;
+
+
+}
+.sign-up .dollar{
+    color: var(--lightgray);
+    font-size: 12px;
+
+
+}
+
+.sign-up .content{
+    font-size: 13px;
+}
+
+
+.button .btn{
+    background-color: var(--brightyellow);
+    color: var(--lightgray);
+    border-radius: 5px;
+    border-style: none;
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.about-us{
+    color: var(--lightgray);
+    background-color: var(--cyan);
+    opacity: 0.8;
+    padding: 10px 20px 10px 20px;
+}
+
+.about-us h2{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.about-us .summary{
+    font-size: 10px;
+    line-height: 0.5;
+    color: #ffffff);
+}
