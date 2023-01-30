@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/single-price-grid-with-flexbox-grid-and-responsive-desgin-8EDBCOkCcp)
 - Live Site URL: [Github](https://amrmabdelazeem.github.io/single-price-grid-component-master/m)
 
 
